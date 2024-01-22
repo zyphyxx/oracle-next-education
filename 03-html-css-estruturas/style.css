@@ -1,0 +1,14 @@
+body{
+  background-color: rgb(50, 50, 50);
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: JetBrains Mono;
+
+}
+strong {
+  color: red;
+}
+a {
+  color: red;
+}
