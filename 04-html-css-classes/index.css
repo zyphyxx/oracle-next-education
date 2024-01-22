@@ -1,0 +1,49 @@
+/* style.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+      text-align: center;
+      background-color: #f8f8f8;
+      padding: 20px;
+      color: #333; 
+}
+
+h1 {
+  color: #4a90e2;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+  color: green;
+}
+
+strong {
+  color: #4a90e2;
+}
+
+.invitation-container {
+  border: 2px solid #4a90e2;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.info-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.confirmation {
+  font-style: italic;
+  color: #888;
+}
+body{
+  background-image: url(https://img.freepik.com/vetores-premium/festa-de-aniversario-de-dinossauro-fofo-com-ilustracao-de-numeracao_102385-631.jpg);
+}
+.nome {
+  font-size:xx-large;
+}
