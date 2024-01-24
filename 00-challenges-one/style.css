@@ -1,0 +1,35 @@
+*{
+
+  background-color: #D9D9D9;
+  font-family: roboto;
+}
+
+button{
+height: 50px;
+width: 200px;
+border-radius: 20px;
+background-color: #0A3871;
+color: aliceblue;
+}
+
+.p1{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #2980b9; /* Borda de 2px sólida com cor */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.p2 {
+  width: 400px;
+    height: 300px;
+  border: 2px solid #2980b9; /* Borda de 2px sólida com cor */
+  border-radius: 10px; /* Cantos arredondados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+
+}
+
+
+
+
+
