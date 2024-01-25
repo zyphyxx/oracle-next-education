@@ -45,5 +45,9 @@ body{
   background-image: url(https://img.freepik.com/vetores-premium/festa-de-aniversario-de-dinossauro-fofo-com-ilustracao-de-numeracao_102385-631.jpg);
 }
 .nome {
-  font-size:xx-large;
+  font-size:x-large;
+}
+
+.dino {
+  border-radius: 5px;
 }
