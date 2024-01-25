@@ -1,49 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
-  <style>
-    @media only screen and (max-width: 600px) {
-      .invitation-container {
-        max-width: 90%;
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        color: #333;
       }
-    }
-  </style>
-  <title>Festa do Leonardo</title>
-</head>
-<body>
-  <div class="invitation-container">
-    <h1>
-      <img src="./cute-baby-dino.gif" width="30px" height="35" alt="baby-dino"> 
-      <u>Convite Especial!</u>
-      <img src="./cute-baby-dino.gif" width="30px" height="35" alt="baby-dino"> 
-    </h1>
-    <br>
-    <p><b>Você</b> está <b>convidado</b> para a <b>incrível festinha</b> de 1 ano do nosso <b>pequeno aventureiro</b></p>
-    <br>
-    <p class="nome"><strong><u>Leonardo Freitas Mendes</u></strong></p>
-    <img src="./HUx0.gif" width="90px" alt="cute-gif">
-    <div class="info-section">
-      <p> 📅 Data: <strong>10 de Março</strong></p>
-      <p> 🕐 Horario: <strong>13h as 16h</strong></p>
-      <p> 📍 Local: <strong>Estrada do Marengo nº 307, Boa Vista Suzano</strong></p>
+
+      .invitation-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      h1,
+      h1 u {
+        color: #ff6600;
+      }
+
+      .info-section p {
+        margin-bottom: 10px;
+      }
+    </style>
+    <title>Festa do Leonardo</title>
+  </head>
+
+  <body>
+    <div class="invitation-container">
+      <h1>
+        <img
+          src="./cute-baby-dino.gif"
+          width="30px"
+          height="35"
+          alt="baby-dino"
+        />
+        <u>Convite Especial!</u>
+        <img
+          src="./cute-baby-dino.gif"
+          width="30px"
+          height="35"
+          alt="baby-dino"
+        />
+      </h1>
+
+      <p><b>Queridos amigos e familiares,</b></p>
+      <p>
+        <b
+          >Estamos emocionados em convidar você para a festinha de 1 ano do
+          nosso pequeno aventureiro:</b
+        >
+      </p>
+
+      <p class="nome">
+        <strong><u>Leonardo Freitas Mendes</u></strong>
+      </p>
+      <img src="./HUx0.gif" width="90px" alt="cute-gif" />
+
+      <div class="info-section">
+        <p>🗓️ <strong>Data:</strong> 10 de Março</p>
+        <p>🕐 <strong>Hora:</strong> 13:00 h</p>
+        <p>
+          📍 <strong>Local:</strong> Estrada do Marengo nº 307, Boa Vista Suzano
+        </p>
+      </div>
+
+      <p>
+        🦕 Embarque nessa jornada ao mundo dos <b>dinossauros</b>! Uma festa
+        repleta de <b>cores, diversão</b> e descobertas pré-históricas te
+        espera. 🌈
+      </p>
+
+      <p>
+        🎉
+        <b
+          >Convidamos você para celebrar conosco este momento especial, onde a
+          alegria e o aprendizado se encontram para formar
+          <u>lembranças inesquecíveis!</u></b
+        >
+        🚀
+      </p>
+
+      <p class="confirmation">
+        Confirme sua presença até <strong>01 de Março</strong>.
+      </p>
+
+      <img src="./dinosaur-blow.gif" class="dino" />
+
+      <p>
+        <b
+          >Esperamos ansiosamente por você para tornar este dia ainda mais
+          especial!</b
+        >
+        🌟
+      </p>
+
+      <p>
+        <b>O seu carinho é o melhor presente</b>, mas se quiser presentear o
+        nosso pequeno aventureiro, ficaremos muito felizes! 🎁🌟
+      </p>
+      <img src="./sappy-seals.gif" width="200px" class="dino" />
+      <p>
+        <b>Leo'saurinho Rex</b> está crescendo rápido, e as roupinhas que cabem
+        nele são tamanho: 2
+      </p>
     </div>
-    <br>
-    <p> 🦕 Prepare-se para uma viagem ao mundo dos <b>dinossauros</b>, repleta de <b>diversão, cores</b> e descobertas pré-históricas! 🌈</p>
-    <br>
-    <p> 🎉 <b>Venham celebrar</b> conosco este momento <b>especial</b>, onde a alegria e o aprendizado se encontram para formar <b>lembranças inesquecíveis!</b> 🚀</p>
-    <br>
-    <p class="confirmation">Confirme sua presença até <strong>01/ Março</strong>.</p>
-    <br>
-    <img src="./dinosaur-blow.gif" class="dino">
-    <br>
-    <p><b>Esperamos por você para tornar este dia ainda mais especial!</b> 🌟</p>
-    <br>
-    <p>Seu carinho é o melhor presente, mas se quiser presentear o nosso pequeno aventureiro! <br> ficaremos muito felizes!🎁🌟</p>
-    <img src="./sappy-seals.gif" width="200px" class="dino">
-    <p>o nosso Tirano Rex está crescendo rápido, e as roupinhas que cabem nele são tamanho: 2</p>
-  </div>
-</body>
+  </body>
 </html>
