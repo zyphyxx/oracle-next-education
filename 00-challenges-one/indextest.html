@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  
 </head>
-<body>
-  <div>
-    Criptografar:<input type="text">
-  <button type="button">Enviar</button>
-  </div>
 
-  <div>
-    <h2>Texto Criptografado:</h2>
-    <p></p>
-  </div>
+<body>
+  <p>Exemplo entrada: O gato está em cima da mesa.</p>
+  <p>Exemplo saida: ober gaitober enterstá enterm cimentersmai dai mentersai.</p>
+  <h2>Criptografar:</h2>
+  <label for="entradaUsuario">Criptografar:</label>
+  <input type="text" id="entradaUsuario">
+  <button onclick="capturarEntrada()">Enviar</button>
+
+  <h2>Descriptografar:</h2>
+  <label for="">Descriptografar:</label>
+  <input type="text" id="desc">
+  <button onclick="capturarSaida()">Enviar</button>
+
+  <h2>Saida de texto:</h2>
+  <p id="xxx"></p>
+    
   
   
-</body>
+  </body>
+
+  <script src="index.js"></script>
 </html>
