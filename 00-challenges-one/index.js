@@ -16,7 +16,7 @@ function capturarEntrada() {
 }
 
 function capturarSaida(){
-  let descText = document.getElementById('desc').value.toLowerCase();
+  let descText = document.getElementById('entradaUsuario').value.toLowerCase();
 
   let novaString = descText
   .replace(/imenters/g,'i')
@@ -27,6 +27,7 @@ function capturarSaida(){
 
   p.innerHTML = novaString;
 }
+
 
 
 

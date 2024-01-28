@@ -4,27 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
   
 </head>
 
 <body>
-  <p>Exemplo entrada: O gato está em cima da mesa.</p>
+  <main>
+
+    <p>Exemplo entrada: O gato está em cima da mesa.</p>
   <p>Exemplo saida: ober gaitober enterstá enterm cimentersmai dai mentersai.</p>
+
+  <div class="saidaTexto">
+    <h2>Saida de texto:</h2>
+  <p id="xxx"></p>
+  </div>
+
   <h2>Criptografar:</h2>
   <label for="entradaUsuario">Criptografar:</label>
   <input type="text" id="entradaUsuario">
-  <button onclick="capturarEntrada()">Enviar</button>
+  <button onclick="capturarEntrada()" class="btn">criptografar</button>
 
   <h2>Descriptografar:</h2>
   <label for="">Descriptografar:</label>
   <input type="text" id="desc">
-  <button onclick="capturarSaida()">Enviar</button>
+  <button onclick="capturarSaida()" class="btn">descriptografar</button>
+  
 
-  <h2>Saida de texto:</h2>
-  <p id="xxx"></p>
-    
-  
-  
+  </main>
   </body>
 
   <script src="index.js"></script>

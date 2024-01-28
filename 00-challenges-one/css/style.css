@@ -1,35 +1,48 @@
-*{
+body{
+  border: 2px solid black;
+  margin: 0%;
+  padding: 0%;
+  display: flexbox
+}
+.text-box{
+  border: 2px solid blue;
+ padding: 1%;
 
-  background-color: #D9D9D9;
-  font-family: roboto;
+color: #0A3871;
+font-family: Inter;
+font-size: 25px;
 }
 
-button{
-height: 50px;
-width: 200px;
-border-radius: 20px;
-background-color: #0A3871;
-color: aliceblue;
+.btn-box{
+  border: 2px solid blue;
+  
 }
 
-.p1{
-    width: 400px;
-    height: 300px;
-    border: 2px solid #2980b9; /* Borda de 2px sólida com cor */
-    border-radius: 10px; /* Cantos arredondados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+.btn-1{
+  width: 328px;
+  border-radius: 24px;
+  background: var(--Dark-blue-dark-blue-300, #0A3871);
+  }
+  .btn-2{
+    width: 328px;
+    border-radius: 24px;
+    background: var(--Dark-blue-dark-blue-300, #0A3871);
+    }
+
+.btn-text{
+  color: white;
+  font-size: large;
 }
-
-.p2 {
-  width: 400px;
-    height: 300px;
-  border: 2px solid #2980b9; /* Borda de 2px sólida com cor */
-  border-radius: 10px; /* Cantos arredondados */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+input {
+  padding: 2%;
+  width: 95%;
 
 }
-
-
-
-
-
+.view {
+  color: #0A3871;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 48px */
+}
