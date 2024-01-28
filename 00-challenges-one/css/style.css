@@ -7,6 +7,7 @@ body{
 .text-box{
   border: 2px solid blue;
  padding: 1%;
+ margin: 4%;
 
 color: #0A3871;
 font-family: Inter;
@@ -15,20 +16,18 @@ font-size: 25px;
 
 .btn-box{
   border: 2px solid blue;
+  margin: 4%;
+  padding: 2%;
+  align-items: center;
   
 }
 
-.btn-1{
-  width: 328px;
-  border-radius: 24px;
-  background: var(--Dark-blue-dark-blue-300, #0A3871);
-  }
-  .btn-2{
-    width: 328px;
-    border-radius: 24px;
-    background: var(--Dark-blue-dark-blue-300, #0A3871);
-    }
+.btn{
+  background: #0A3871;
+  width: 100%;
 
+  }
+  
 .btn-text{
   color: white;
   font-size: large;
@@ -39,10 +38,12 @@ input {
 
 }
 .view {
-  color: #0A3871;
+border: 2px blue solid;
+margin: 4%;
+color: #0A3871;
 font-family: Inter;
-font-size: 32px;
+font-size: 130%;
 font-style: normal;
-font-weight: 400;
 line-height: 150%; /* 48px */
+padding: 1%;
 }
