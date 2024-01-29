@@ -1,4 +1,4 @@
-let p = document.getElementById('xxx');
+let p = document.getElementById('saidaDeTexto');
 
 function capturarEntrada() {
   let entradaUsuario = document.getElementById('entradaUsuario').value.toLowerCase();

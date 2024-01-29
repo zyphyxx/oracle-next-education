@@ -1,11 +1,12 @@
 body{
-  border: 2px solid black;
   margin: 0%;
   padding: 0%;
-  display: flexbox
+  display: flexbox;
+  background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*tjHTmF_1SUY6_pykU6_VpQ.gif);
+  background-size: cover;
 }
 .text-box{
-  border: 2px solid blue;
+
  padding: 1%;
  margin: 4%;
 
@@ -15,7 +16,7 @@ font-size: 25px;
 }
 
 .btn-box{
-  border: 2px solid blue;
+  
   margin: 4%;
   padding: 2%;
   align-items: center;
@@ -38,12 +39,25 @@ input {
 
 }
 .view {
-border: 2px blue solid;
 margin: 4%;
-color: #0A3871;
+color: yellow;
 font-family: Inter;
 font-size: 130%;
 font-style: normal;
 line-height: 150%; /* 48px */
 padding: 1%;
+text-align: center;
+background-color: black;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  color: #f6f7f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  size: 50%;
+  background-color: black;
 }
