@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="especializacao-back-end" target="11" />
+      <module name="especializacao-back-end.main" target="11" />
+      <module name="especializacao-back-end.test" target="11" />
+      <module name="especializao-back-end" target="11" />
+      <module name="especializao-back-end.main" target="11" />
+      <module name="especializao-back-end.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
