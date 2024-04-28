@@ -1,7 +1,6 @@
 package com.example.springframework.services;
 
-import com.example.springframework.dto.MovieName;
-import com.google.gson.Gson;
+import com.example.springframework.model.DataMovie;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -11,7 +10,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 @Service
-public class ApiOmdb {
+public class OmdbApi {
 
         public void searchMovie (String name) throws IOException, InterruptedException {
 
@@ -21,11 +20,9 @@ public class ApiOmdb {
             HttpRequest request = HttpRequest.newBuilder().uri(URI.create(api)).build();
             HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
 
-
-
-            Gson gson = new Gson();
-            System.out.println(gson.fromJson(response.body(), MovieName.class));
-
+            Mapper mapper = new Mapper();
+            DataMovie data = mapper.getData(response.body(), DataMovie.class);
+            System.out.println(data);
 
         }
 

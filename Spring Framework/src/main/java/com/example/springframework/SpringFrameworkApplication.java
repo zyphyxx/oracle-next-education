@@ -1,6 +1,6 @@
 package com.example.springframework;
 
-import com.example.springframework.services.ApiOmdb;
+import com.example.springframework.services.OmdbApi;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,7 +19,7 @@ public class SpringFrameworkApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        ApiOmdb apiOmdb = new ApiOmdb();
+        OmdbApi apiOmdb = new OmdbApi();
         String name = "Matrix";
 
         try {
