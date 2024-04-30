@@ -1,6 +1,7 @@
 package com.example.springframework.services;
 
 import com.example.springframework.model.DataMovie;
+import com.example.springframework.model.DataSeries;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -22,7 +23,9 @@ public class OmdbApi {
 
             Mapper mapper = new Mapper();
             DataMovie data = mapper.getData(response.body(), DataMovie.class);
+            DataSeries dataSeries = mapper.getData(response.body(), DataSeries.class);
             System.out.println(data);
+            System.out.println(dataSeries);
 
         }
 

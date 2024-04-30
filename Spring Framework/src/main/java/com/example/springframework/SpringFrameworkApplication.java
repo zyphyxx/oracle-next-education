@@ -20,7 +20,7 @@ public class SpringFrameworkApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         OmdbApi apiOmdb = new OmdbApi();
-        String name = "Matrix";
+        String name = "lost";
 
         try {
 
